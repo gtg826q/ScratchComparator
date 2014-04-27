@@ -1,0 +1,48 @@
+Project: circuitmaze
+Author: 
+Scratch: 1.4 of 30-Jun-09
+History:
+    2010-3-30 10:31:46	save	maze		
+    2010-3-30 10:37:34	save	maze		
+    2010-3-30 10:49:56	save	maze		
+    2010-3-30 11:01:43	save	maze		
+    2010-4-1 10:13:58	save	maze4-1-10		
+    2010-4-1 10:51:47	save	maze4-1-10		
+    2010-4-1 10:51:55	save	maze4-1-10		
+    2010-4-1 22:07:07	save	maze4-1-10		
+    2010-4-1 22:07:22	save	circuitmaze		
+    2010-4-1 22:09:39	save	circuitmaze		
+    2010-5-5 10:03:16	save	circuitmaze		
+
+Totals: 
+    Sprites: 1
+    Stacks: 11
+    Unique costumes: 4
+    Unique sounds: 2
+--------
+Sprite: Stage
+  Costumes (2):
+    background1 (480x360)
+    background2 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "level2"        switch to background "background2"        set "level" to "2"    end
+    when green flag clicked        set "level" to "1"        switch to background "background1"    end--------
+Sprite: Sprite1
+  Costumes (2):
+    costume1 (95x111)
+    costume2 (95x111)
+  Sounds (1):
+    meow (0:00:01)
+  Stacks (9):
+    when green flag clicked        forever              if on edge, bounce    end
+    when green flag clicked        wait 1 secs        set "score" to "0"        go to x: -95 y: -146        forever if ((distance to s[mouse-pointer] ) < "10")              point towards s[mouse-pointer]            move 3 steps    end
+    when green flag clicked        forever if (touching color c[009933]?)              wait 2 secs            say "Finished!" for 2 secs            set "score" to "2"            stop all     end
+    when right arrow key pressed        point in direction 90        move 10 steps    end
+    when green flag clicked        forever if (touching color c[000008]?)              go to x: -95 y: -146    end
+    when down arrow key pressed        point in direction 180        move 10 steps    end
+    when left arrow key pressed        point in direction -90        move 10 steps    end
+    when up arrow key pressed        point in direction 0        move 10 steps    end
+    when green flag clicked        forever if (touching color c[0031CE]?)              wait 2 secs            say "Finished!" for 2 secs            set "score" to "1"            go to x: -95 y: -146            broadcast "level2"    end
+--------

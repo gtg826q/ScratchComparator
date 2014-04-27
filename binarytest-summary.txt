@@ -1,0 +1,138 @@
+Project: binarytest
+Author: 
+Scratch: 1.4 of 30-Jun-09
+History:
+    2010-3-21 15:01:49	save	c--scratch-csu-		
+    2010-3-21 15:02:23	save	costumes		
+    2010-3-21 15:04:27	save	costumes		
+    2010-3-21 15:05:36	save	costumes		
+    2010-3-21 15:06:59	save	costumes		
+    2010-3-21 15:07:51	save	costumes		
+    2010-3-21 15:10:20	save	costumes		
+    2010-3-21 15:13:02	save	costumes		
+    2010-3-21 15:13:10	save	binary1		
+    2010-3-21 15:14:54	save	binary1		
+    2010-3-21 15:15:06	save	binary1		
+    2010-3-21 15:15:19	save	binary1		
+    2010-3-21 15:16:48	save	binary2		
+    2010-3-21 15:20:00	save	binary2		
+    2010-3-21 15:20:07	save	binary2		
+    2010-3-21 15:23:11	save	binary2		
+    2010-3-21 15:25:37	save	binary2		
+    2010-3-21 15:34:17	save	binary2		
+    2010-3-21 15:36:15	save	binary2		
+    2010-3-21 15:37:35	save	binary2		
+    2010-3-21 15:47:26	save	binary2		
+    2010-3-21 16:33:16	save	binary2		
+    2010-3-21 16:35:16	save	binary2		
+    2010-3-21 16:35:31	save	binary3		
+    2010-3-21 16:40:28	save	binary3		
+    2010-3-21 16:42:17	save	binary3		
+    2010-3-21 16:45:13	save	binary3		
+    2010-3-21 16:45:22	save	binary3		
+    2010-3-21 16:46:45	save	binary3		
+    2010-3-21 16:52:35	save	binary3		
+    2010-3-21 16:53:46	save	binary3		
+    2010-3-21 16:54:10	save	binary3		
+    2010-3-21 16:55:51	save	binary3		
+    2010-3-21 16:56:19	save	binary4		
+    2010-3-21 17:00:45	save	binary4		
+    2010-3-21 17:02:11	save	binary4		
+    2010-3-21 17:03:43	save	binary4		
+    2010-3-21 17:04:33	save	binary4		
+    2010-3-21 17:07:10	save	binary4		
+    2010-3-21 17:07:47	save	binary4		
+    2010-3-21 19:35:48	save	binary5		
+    2010-3-21 19:37:36	save	binary5		
+    2010-3-21 19:39:59	save	binary5		
+    2010-3-21 19:40:39	save	binary5		
+    2010-3-21 19:41:03	save	binary5		
+    2010-3-21 19:48:31	save	binary5		
+    2010-3-21 19:49:38	save	binary6		
+    2010-3-21 19:51:14	save	binary6		
+    2010-3-21 19:53:12	save	binary6		
+    2010-3-21 19:53:34	save	binary6		
+    2010-3-21 19:58:11	save	binary6		
+    2010-3-21 19:59:24	save	binary6		
+    2010-3-21 19:59:43	save	binary6		
+    2010-3-21 20:03:14	save	binary6		
+    2010-3-21 20:03:41	save	binary6		
+    2010-3-21 20:03:51	save	binary7		
+    2010-3-21 20:04:31	save	binary7		
+    2010-3-21 20:05:12	save	binary7		
+    2010-3-21 20:06:10	save	binary7		
+    2010-3-21 20:07:18	save	binary7		
+    2010-3-21 20:08:24	save	binary7		
+    2010-3-21 20:08:34	save	binary7		
+    2010-3-21 20:08:55	save	binary7		
+    2010-3-21 20:09:21	save	binary8		
+    2010-3-21 20:10:10	save	binary8		
+    2010-3-21 20:10:27	save	binary8		
+    2010-3-21 20:10:56	save	binary9		
+    2010-3-21 20:12:13	save	binary9		
+    2010-3-21 20:13:02	save	binary9		
+    2010-3-21 20:13:34	save	binary9		
+    2010-3-21 20:13:45	save	binary		
+    2010-7-7 22:19:21	save	binarytest		
+
+Totals: 
+    Sprites: 6
+    Stacks: 11
+    Unique costumes: 8
+    Unique sounds: 2
+--------
+Sprite: Stage
+  Costumes (1):
+    background1 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  No stacks.
+--------
+Sprite: card02
+  Costumes (2):
+    dots (138x193)
+    black (141x193)
+  Sounds (0):
+  Stacks (2):
+    when green flag clicked        go to x: 50 y: 60        set "bit" to "0"        switch to costume "black"    end
+    when card02 clicked        set "bit" to (1 - (bit))        if ((costume #) = "1") else             change "sum" by -2        else            change "sum" by 2        next costume    end--------
+Sprite: card04
+  Costumes (2):
+    dots (138x193)
+    black (141x193)
+  Sounds (0):
+  Stacks (2):
+    when green flag clicked        go to x: -30 y: 60        set "bit" to "0"        switch to costume "black"    end
+    when card04 clicked        set "bit" to (1 - (bit))        if ((costume #) = "1") else             change "sum" by -4        else            change "sum" by 4        next costume    end--------
+Sprite: card08
+  Costumes (2):
+    dots (139x193)
+    black (141x193)
+  Sounds (0):
+  Stacks (2):
+    when card08 clicked        set "bit" to (1 - (bit))        if ((costume #) = "1") else             change "sum" by -8        else            change "sum" by 8        next costume    end
+    when green flag clicked        go to x: -110 y: 60        set "bit" to "0"        switch to costume "black"    end--------
+Sprite: card16
+  Costumes (2):
+    dots (141x193)
+    black (141x193)
+  Sounds (1):
+    יללה (0:00:01)
+  Stacks (2):
+    when green flag clicked        set "sum" to "0"        go to x: -190 y: 60        set "bit" to "0"        switch to costume "black"    end
+    when card16 clicked        set "bit" to (1 - (bit))        if ((costume #) = "1") else             change "sum" by -16        else            change "sum" by 16        next costume    end--------
+Sprite: equals
+  Costumes (1):
+    costume1 (13x13)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        go to x: 180 y: 60        set "sum" to "0"    end--------
+Sprite: card01
+  Costumes (2):
+    dots (138x191)
+    black (141x193)
+  Sounds (0):
+  Stacks (2):
+    when green flag clicked        go to x: 130 y: 60        set "bit" to "0"        switch to costume "black"    end
+    when card01 clicked        set "bit" to (1 - (bit))        if ((costume #) = "1") else             change "sum" by -1        else            change "sum" by 1        next costume    end
+--------

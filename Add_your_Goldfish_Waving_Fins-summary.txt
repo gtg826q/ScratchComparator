@@ -1,0 +1,210 @@
+Project: Add your Goldfish Waving Fins!
+Author: Goldfish22
+Scratch: 1.4 of 30-Jun-09
+Notes:
+    REMIX!!!!!!!!!
+
+History:
+    2010-7-1 11:41:21	save	Add your Goldfish Waving Fins!		gf22
+    2010-7-1 11:43:07	save	Add your Goldfish Waving Fins!		gf22
+    2010-7-1 11:44:08	save	Add your Goldfish Waving Fins!		gf22
+    2010-7-1 11:44:27	save	Add your Goldfish Waving Fins!		gf22
+    2010-7-1 11:44:37	save	Add your Goldfish Waving Fins!		gf22
+    2010-7-1 11:45:26	save	Add your Goldfish Waving Fins!		gf22
+    2010-7-1 11:45:34	save	Add your Goldfish Waving Fins!		gf22
+    2010-7-2 08:29:21	share	Add your Goldfish Waving Fins!	Goldfish22	
+
+Totals: 
+    Sprites: 20
+    Stacks: 20
+    Unique costumes: 81
+    Unique sounds: 1
+--------
+Sprite: Stage
+  Costumes (1):
+    background1 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  No stacks.
+--------
+Sprite: Sprite20
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite19
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite18
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite17
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite16
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite15
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite14
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite13
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite12
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite11
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite10
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite9
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite8
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite7
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite6
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite5
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite4
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite3
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite2
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end--------
+Sprite: Sprite1
+  Costumes (4):
+    costume1 (198x175)
+    costume2 (218x160)
+    costume3 (197x160)
+    costume4 (218x160)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              wait 0.1 secs            next costume    end
+--------
