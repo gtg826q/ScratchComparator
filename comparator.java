@@ -25,7 +25,7 @@ public class comparator {
 		double score = 0; // score of each file
 		String fname; // string for file name
 		
-		File myDir = new File("sp"); // get all text files from directory and put in array
+		File myDir = new File(System.getProperty("user.dir")); // get all text files from directory and put in array
     		FilenameFilter text = new Filter("", "txt");
 		File[] summaries = myDir.listFiles(text);
 		for (File f : summaries) { // loop through array of files
